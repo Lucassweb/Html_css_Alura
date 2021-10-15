@@ -2,6 +2,19 @@ header {
     background: #BBBBBB;
 }
 
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
 nav li {
     display: inline;
     margin: 0 0 0 15px;
