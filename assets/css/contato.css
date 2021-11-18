@@ -60,6 +60,24 @@ form label, form legend {
     margin: 20px 0;
 }
 
+.enviar {
+    width: 40%;
+    padding: 15px 0px;
+    background: orange;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.enviar:hover {
+    background: darkorange;
+    transform: scale(1.2);
+}
+
 footer {
     text-align: center;
     background: #CCCCCC;
