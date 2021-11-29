@@ -104,3 +104,20 @@ footer {
     color: #ffffff;
     font-size: 13px;
 }
+
+/* @media */
+
+@media screen and (max-width: 480px) {
+    .caixa, main, .input-padrao, .enviar {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+}
